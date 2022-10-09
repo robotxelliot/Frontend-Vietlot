@@ -1,3 +1,27 @@
+yarn create next-app .
+yarn run dev
+copy prettier
+new folder components => Header.jsx
+yarn add react react-dom moralis-v1 react-moralis
+ // Khong dung --dev for production
+ Tai tailwind postcss cho nextjs
+ De connect wallet hoat dong can vao file backend chay hardhat node
+ yarn add magic-sdk
+ Quay lai file backend, vao file helper-config tao 2 bien constant contractaddress va abi sau do vao deploy folder tao 02-update-front-end.js
+ trong file nay khi deploy se xuat ra contract address va abi vao folder constant trong front end project
+
+tao folder constant trong front project chua address va abi de khi deploy, thong tin se duoc ghi vao folder nay. 2 file chua empty phan tu {}
+
+tao file index.js de export du lieu cho loterry entrance import
+Luu y khi enterVietlot ma tao loi nonce thi reset lai account
+vao project back end tao file scripts mockoffchain de test sau do chay cau lenh :
+yarn hardhat run scripts/mockOffchain.js --network localhost
+de hien thi nguoi thang cuoc
+
+
+-> yarn build
+-> yarn next export -> out folder (pure static code use for ipfs)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
